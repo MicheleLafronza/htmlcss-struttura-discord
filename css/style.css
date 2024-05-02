@@ -21,7 +21,7 @@ nav {
 }
 
 /* regole banner top */
-#banner-top {
+#banner-container {
     padding-top: 30px;
     padding-bottom: 30px;
     /* DEBUG */
@@ -82,24 +82,29 @@ nav {
 
 /* regole main */
 .white-section {
-    background-color: white;
-    min-height: 400px;
     padding-top: 30px;
     padding-bottom: 30px;
+    /* DEBUG */
+    background-color: white;
+    min-height: 400px;
 }
 
 .grey-section {
-    background-color: rgba(211,211,211,255);
-    min-height: 400px;
     padding-top: 30px;
     padding-bottom: 30px;
+    /* DEBUG */
+    background-color: rgba(211,211,211,255);
+    min-height: 400px;
+
 }
 
 .grey-section-big {
-    background-color: rgba(211,211,211,255);
-    min-height: 800px;
     padding-top: 30px;
     padding-bottom: 30px;
+    /* DEBUG */
+    background-color: rgba(211,211,211,255);
+    min-height: 800px;
+
 }
 
 .flex-container-main1 {
@@ -113,8 +118,8 @@ nav {
 
 .box-big {
     width: 60%;
-    background-color: rgba(30,144,255,255);
     /* DEBUG */
+    background-color: rgba(30,144,255,255);
     border-style: dashed;
     border-width: 2px;
 }
@@ -122,8 +127,8 @@ nav {
 
 .box-small {
     width: 40%;
-    background-color: rgba(255,192,203,255);
     /* DEBUG */
+    background-color: rgba(255,192,203,255);
     border-style: dashed;
     border-width: 2px;
 }
@@ -132,11 +137,53 @@ nav {
     margin: auto;
     background-color: rgba(34,139,34,255);
     width: 60%;
-    min-height: 740px;
     /* DEBUG */
     border-style: dashed;
     border-width: 2px;
+    min-height: 740px;
 }
 
+/* regole footer */
+#top-footer {
+    background-color: rgba(35,39,42,255);
+    /* DEBUG */
+    min-height: 470px;
+    border-bottom: 1px solid rgba(202,202,202,255);
+    padding-top: 10px;
+}
 
+#low-footer {
+    /* DEBUG */
+    background-color: rgba(35,39,42,255);
+    min-height: 90px;
+}
 
+#flex-container-footer {
+    width: 60%;
+    margin: 0px auto;
+    display: flex;
+    /* DEBUG */
+    min-height: 430px;
+    border: dashed;
+
+}
+
+#col-footer-left {
+    width: 30%;
+    /* DEBUG */
+    background-color: rgba(240,128,128,255);
+    border-right: 3px dashed black;
+}
+
+#col-footer-right {
+    width: 70%;
+    display: flex;
+    /* DEBUG */
+    background-color: rgba(32,178,170,255);
+}
+
+.inside-col-rfoot {
+    width: calc(100% / 4);
+    /* DEBUG */
+    border: 2px dashed white;
+}
