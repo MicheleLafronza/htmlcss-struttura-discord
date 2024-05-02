@@ -14,29 +14,41 @@ header {
 nav {
     padding-top: 10px;
     padding-bottom: 15px;
-    background-color: rgba(173,216,230,255);
     line-height: 30px;
     /* DEBUG */
+    background-color: rgba(173,216,230,255);
     min-height: 50px
 }
 
+/* regole banner top */
 #banner-top {
-    
-    background-color: rgba(0,0,139,255);
+    padding-top: 30px;
+    padding-bottom: 30px;
     /* DEBUG */
-    min-height: 300px;
+    min-height: 310px;
+    background-color: rgba(0,0,139,255);
+}
+
+#banner-box {
+    width: 40%;
+    margin: auto;
+    /* DEBUG */
+    background-color: rgba(238,130,238,255);
+    min-height: 250px;
+    border-style: dashed;
+    border-width: 2px;
 }
 
 /* regole nav */
 #flex-container-nav {
     width: 60%;
     margin: 0px auto;
-    background-color: rgba(218,165,32,255);
     display: flex;
     justify-content: space-between;
     /* DEBUG */
     border-style: dashed;
     border-width: 2px;
+    background-color: rgba(218,165,32,255);
 }
 
 #logo-nav {
