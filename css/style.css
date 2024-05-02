@@ -78,4 +78,65 @@ nav {
     font-size: 20px;
     margin-right: 10px;
 }
+/* /fine regole header */
+
+/* regole main */
+.white-section {
+    background-color: white;
+    min-height: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.grey-section {
+    background-color: rgba(211,211,211,255);
+    min-height: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.grey-section-big {
+    background-color: rgba(211,211,211,255);
+    min-height: 800px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.flex-container-main1 {
+    width: 60%;
+    margin: 0px auto;
+    display: flex;
+    /* DEBUG */
+    min-height: 360px;
+
+}
+
+.box-big {
+    width: 60%;
+    background-color: rgba(30,144,255,255);
+    /* DEBUG */
+    border-style: dashed;
+    border-width: 2px;
+}
+
+
+.box-small {
+    width: 40%;
+    background-color: rgba(255,192,203,255);
+    /* DEBUG */
+    border-style: dashed;
+    border-width: 2px;
+}
+
+#green-box {
+    margin: auto;
+    background-color: rgba(34,139,34,255);
+    width: 60%;
+    min-height: 740px;
+    /* DEBUG */
+    border-style: dashed;
+    border-width: 2px;
+}
+
+
 
